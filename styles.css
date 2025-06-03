@@ -96,7 +96,7 @@ body {
 }
 
 .menu-grid {
-  list-style: none;
+  /*list-style: none;*/
   display: grid;
   gap: 2rem;
 }
