@@ -1,0 +1,166 @@
+:root {
+  --mint: #b0eacd;
+  --red: #e63946;
+  --dark: #1d1d1d;
+  --light: #fff8f0;
+  --font-main: 'Josefin Sans', sans-serif;
+  --font-display: 'Pacifico', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--light);
+  color: var(--dark);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--mint);
+}
+
+.hamburger {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-links li {
+  margin: 1rem 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.nav-links.show {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero {
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  padding: 6rem 1rem;
+  color: white;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background: var(--red);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c92a35;
+}
+
+.menu-section {
+  background: #fff;
+  padding: 2rem 1rem;
+}
+
+.menu-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.menu-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-left: 5px solid var(--mint);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.menu-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-item h3 {
+  margin-top: 0;
+  color: var(--red);
+}
+
+.price {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background: var(--dark);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 0.5rem;
+  filter: invert(1);
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
