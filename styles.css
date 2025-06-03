@@ -96,6 +96,7 @@ body {
 }
 
 .menu-grid {
+  list-style: none;
   display: grid;
   gap: 2rem;
 }
