@@ -23,11 +23,22 @@ const observer = new IntersectionObserver((entries) => {
 
 items.forEach(item => observer.observe(item));
 
-// Parallax Effect (works on mobile too!)
-window.addEventListener('scroll', function () {
-  const parallax = document.querySelector('.parallax-bg');
-  const scroll = window.scrollY;
+// Smoothed Parallax Scrolling
+const parallax = document.querySelector('.parallax-bg');
+let scrollPosition = 0;
+let currentOffset = 0;
+
+function lerp(start, end, factor) {
+  return start + (end - start) * factor;
+}
+
+function updateParallax() {
+  scrollPosition = window.scrollY;
+  currentOffset = lerp(currentOffset, scrollPosition, 0.1);
   if (parallax) {
-    parallax.style.transform = `translateY(${scroll * 0.3}px)`;
+    parallax.style.transform = `translateY(${currentOffset * 0.3}px)`;
   }
-});
+  requestAnimationFrame(updateParallax);
+}
+
+requestAnimationFrame(updateParallax);
