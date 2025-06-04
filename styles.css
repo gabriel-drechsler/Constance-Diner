@@ -55,7 +55,7 @@ body {
   gap: 1rem;
 }
 
-.hero {
+/*.hero {
   background-image: url("images/hero.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -63,6 +63,19 @@ body {
   text-align: center;
   padding: 6rem 1rem;
   color: white;
+}*/
+
+.hero {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
 }
 
 .hero h1 {
