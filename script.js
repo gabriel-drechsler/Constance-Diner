@@ -22,3 +22,12 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 items.forEach(item => observer.observe(item));
+
+// Parallax Effect (works on mobile too!)
+window.addEventListener('scroll', function () {
+  const parallax = document.querySelector('.parallax-bg');
+  const scroll = window.scrollY;
+  if (parallax) {
+    parallax.style.transform = `translateY(${scroll * 0.3}px)`;
+  }
+});
