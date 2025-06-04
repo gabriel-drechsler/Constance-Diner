@@ -69,6 +69,12 @@ body {
   color: white;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll; /* Fallback auf Mobilgeräten */
+  }
+}
+
 .hero h1 {
   font-family: var(--font-display);
   font-size: 3rem;
