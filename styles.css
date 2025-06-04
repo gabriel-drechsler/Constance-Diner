@@ -57,8 +57,9 @@ body {
 
 .hero {
   position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
   overflow: hidden;
-  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
