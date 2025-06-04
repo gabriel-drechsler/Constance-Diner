@@ -66,6 +66,7 @@ body {
   text-align: center;
   color: white;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .parallax-bg {
@@ -80,11 +81,13 @@ body {
   z-index: -1;
   transform: translateY(0);
   transition: transform 0.1s ease-out;
+  box-sizing: border-box;
 }
 
 .hero-content {
   z-index: 1;
   padding: 1rem;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
