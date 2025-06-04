@@ -65,19 +65,6 @@ body {
   color: white;
 }
 
-/*.hero {
-  background-image: url("images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-}*/
-
 .hero h1 {
   font-family: var(--font-display);
   font-size: 3rem;
