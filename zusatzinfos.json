@@ -1,0 +1,13 @@
+{
+  "id": "carbonara",
+  "name": "Spaghetti Carbonara",
+  "zutaten": ["Pasta", "Speck", "Eier", "Parmesan", "Pfeffer"],
+  "naehrwerte": {
+    "kcal": 650,
+    "fett": 25,
+    "kohlehydrate": 50,
+    "eiweiss": 30
+    "zucker": 5,
+    "ballaststoffe": 3
+  }
+}
