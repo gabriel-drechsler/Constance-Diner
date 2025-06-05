@@ -12,4 +12,46 @@
     "ballaststoffe": 1,8
   }
 }
+
+  {
+  "id": "pizza",
+  "name": "Pizza",
+  "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
+  "naehrwerte": {
+    "kcal": 255,
+    "fett": 11,
+    "kohlehydrate": 25,
+    "eiweiss": 13
+    "zucker": 6,1,
+    "ballaststoffe": 1,8
+  }
+}
+
+{
+  "id": "pommes-frites",
+  "name": "Pommes Frites",
+  "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
+  "naehrwerte": {
+    "kcal": 255,
+    "fett": 11,
+    "kohlehydrate": 25,
+    "eiweiss": 13
+    "zucker": 6,1,
+    "ballaststoffe": 1,8
+  }
+}
+
+{
+  "id": "hot-dog",
+  "name": "Hot-Dog",
+  "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
+  "naehrwerte": {
+    "kcal": 255,
+    "fett": 11,
+    "kohlehydrate": 25,
+    "eiweiss": 13
+    "zucker": 6,1,
+    "ballaststoffe": 1,8
+  }
+}
 ]
