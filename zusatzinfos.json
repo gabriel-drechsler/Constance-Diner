@@ -1,6 +1,6 @@
 {
   "id": "cheeseburger",
-  "name": "Spaghetti Carbonara",
+  "name": "Cheeseburger",
   "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
   "naehrwerte": {
     "kcal": 255,
