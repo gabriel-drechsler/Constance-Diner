@@ -39,49 +39,57 @@
     <!--Gerichte -->
       <h2>Das warum du hier bist</h2>
       <div class="menu-grid">
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Cheeseburger</h3>
           <p>Saftiges Rindfleisch, geschmolzener Käse, knuspriges Brötchen</p>
           <span class="price">9,50 €</span>
+          <button class="info-button" data-id="cheeseburger">Mehr Info</button>
         </div>
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Klassische Salamipizza</h3>
           <p>Tomatensauce, Salami, Käse</p>
           <span class="price">9,00 €</span>
+          <button class="info-button" data-id="pizza">Mehr Info</button>
         </div>
         <div class="menu-item">
           <h3>Pommes Frites</h3>
           <p>Goldbraun & knusprig, serviert mit Dip</p>
           <span class="price">3,50 €</span>
+          <button class="info-button" data-id="pommes-frites">Mehr Info</button>
         </div>
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Hot Dog "Constance"</h3>
           <p>Mit karamellisierten Zwiebeln & Senf</p>
           <span class="price">5,50 €</span>
+          <button class="info-button" data-id="hot-dog">Mehr Info</button>
         </div>
       </div>
      <!--Eis-->
         <h2>Eis(kalt) Achtung: Frostgefahr!</h2>
       <div class="menu-grid">
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Obstsalat Becher</h3>
           <p>Obstsalat, Zitroneneis, Erdbeereis, Bananeneis, Meloneneis</p>
           <span class="price">9,50 €</span>
+          <button class="info-button" data-id="fruit-salad-ice">Mehr Info</button>
         </div>
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Spagettieis</h3>
           <p>Leckere Vanille spagettis mit Yammi Erdbeersoße</p>
           <span class="price">4,00 €</span>
+          <button class="info-button" data-id="spagetti-ice">Mehr Info</button>
         </div>
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Minzbecher</h3>
           <p>Schokoladeneis, Minzeis, After Eight soße, After Eight Taler</p>
           <span class="price">3,50 €</span>
+          <button class="info-button" data-id="after-eight-ice">Mehr Info</button>
         </div>
-        <div class="menu-item">
+        <div class="menu-item gericht">
           <h3>Wasauchimmer</h3>
           <p>Dein Eis, deine Regeln. Du bestimmst was du bekommst</p>
           <span class="price">5,50 € - 12,00 €</span>
+          <button class="info-button" data-id="whatever-ice">Mehr Info</button>
         </div>
       </div>
     <!--Warme Getränke-->
@@ -155,10 +163,21 @@
           <p>Mit karamellisierten Zwiebeln & Senf</p>
           <span class="price">5,50 €</span>
         </div> 
-      </div>
+      </div> -->
+
+        <div class="overlay" id="infoOverlay">
+    <div class="overlay-content">
+      <button class="close-btn" onclick="toggleOverlay(false)">×</button>
+      <h2 id="gerichtName"></h2>
+      <p><strong>Zutaten:</strong> <span id="gerichtZutaten"></span></p>
+      <p><strong>Nährwerte:</strong>
+        <br><span id="gerichtNaehrwerte"></span>
+      </p>
+    </div>
+  </div>
     </section>
 
-    <section id="about">
+ <!--   <section id="about">
       <h2>Über Constance</h2>
       <p>Ein Ort voller Charme und Klasse. Eine wohlfühloase im stil der 50er…</p>
     </section> -->
