@@ -1,13 +1,13 @@
 {
-  "id": "carbonara",
+  "id": "cheeseburger",
   "name": "Spaghetti Carbonara",
-  "zutaten": ["Pasta", "Speck", "Eier", "Parmesan", "Pfeffer"],
+  "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
   "naehrwerte": {
-    "kcal": 650,
-    "fett": 25,
-    "kohlehydrate": 50,
-    "eiweiss": 30
-    "zucker": 5,
-    "ballaststoffe": 3
+    "kcal": 255,
+    "fett": 11,
+    "kohlehydrate": 25,
+    "eiweiss": 13
+    "zucker": 6,1,
+    "ballaststoffe": 1,8
   }
 }
