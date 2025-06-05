@@ -182,6 +182,35 @@ body {
   color: var(--dark);
 }
 
+    .info-button { margin-top: 0.5rem; cursor: pointer; }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .overlay-content {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      width: 90%; max-width: 400px;
+      position: relative;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 1rem; right: 1rem;
+      font-size: 1.5rem;
+      background: none; border: none; cursor: pointer;
+    }
+
 main {
   padding: 2rem;
 }
