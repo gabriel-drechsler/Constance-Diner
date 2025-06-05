@@ -1,6 +1,6 @@
 let zusatzinfos = [];
 
-fetch('zusatzinfos.json')
+fetch('infos.json')
   .then(res => res.json())
   .then(data => {
     zusatzinfos = data;
