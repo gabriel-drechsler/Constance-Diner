@@ -202,14 +202,26 @@ body {
       box-shadow: 0 8px 24px rgba(0,0,0,0.2);
       width: 90%; max-width: 400px;
       position: relative;
+
     }
 
     .close-btn {
-      position: absolute;
-      top: 1rem; right: 1rem;
-      font-size: 1.5rem;
-      background: none; border: none; cursor: pointer;
+  display: block;
+  margin: 2rem auto 0 auto;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: var(--red);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
     }
+
+.close-btn:hover {
+  background: #c92a35;
+}
 
 main {
   padding: 2rem;
