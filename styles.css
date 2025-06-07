@@ -131,17 +131,20 @@ body {
   margin-bottom: 1rem;
 }
 
-.btn {
+.btn-header {
   background: var(--red);
   color: white;
+  box-sizing: border-box;
+  display: inline-block;
   padding: 0.75rem 1.5rem;
+  width: 200px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
   transition: background 0.3s ease;
 }
 
-.btn:hover {
+.btn-header:hover {
   background: #c92a35;
 }
 
