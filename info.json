@@ -53,29 +53,33 @@
     }
   },
     {
-    "id": "cheeseburger",
-    "name": "Cheeseburger",
-    "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
+    "id": "fruit-salad-ice",
+    "name": "Obstlasat Becher",
+    "zutaten": ["Verschiedene Eissorten: Zitrone, Erdbeere, Banane, Melone", "Gewürfelte/ Geschniittene Früchte: Birne, Apfel, Banane, Trauben, Orangen", "Sahne"],
     "naehrwerte": {
-      "kcal": 255,
-      "fett": 11,
-      "kohlehydrate": 25,
-      "eiweiss": 13,
-      "zucker": 6.1,
-      "ballaststoffe": 1.8
+      "kcal": 425,
+      "fett": 13,
+      "davon gesättigt": 7,
+      "kohlehydrate": 68,
+      "eiweiss": 5,
+      "zucker": 62,
+      "ballaststoffe": 4,
+      "salz": 0.3
     }
   },
   {
-    "id": "pizza",
-    "name": "Pizza",
-    "zutaten": ["Burgerbrötchen", "Hackfleich-Patty", "Käse", "Gewürzgurken", "Salatblatt", "Ketchup", "Senf"],
+    "id": "spagetti-ice",
+    "name": "Spagettieis",
+    "zutaten": ["Vanilleeis in Spagetti form", "Erdbeersauße", "Weiße Schokolade (Geraspelt)", "Sahne"],
     "naehrwerte": {
-      "kcal": 255,
-      "fett": 11,
-      "kohlehydrate": 25,
-      "eiweiss": 13,
-      "zucker": 6.1,
-      "ballaststoffe": 1.8
+      "kcal": 500,
+      "fett": 32,
+      "davon gesättigt": 17,
+      "kohlehydrate": 52,
+      "eiweiss": 7,
+      "zucker": 40,
+      "ballaststoffe": 2,
+      "salz": 0.3
     }
   },
   {
